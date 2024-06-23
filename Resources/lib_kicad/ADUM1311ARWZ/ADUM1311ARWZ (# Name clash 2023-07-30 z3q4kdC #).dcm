@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADUM1311ARWZ
+D Analog Devices ADUM1311ARWZ PCB SMT 3-channel Digital Isolator, 2500 Vrms, 16-Pin SOIC
+K
+F http://uk.rs-online.com/webdocs/0e47/0900766b80e47295.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,234 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 04023C104MAT2A
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 25V .1uF X7R 0402 20% Tol
+F http://www.mouser.com/catalog/supplier/library/pdf/AVXSurfaceMountCeramic.pdf
+$ENDCMP
+#
+$CMP 0402YG103ZAT2A
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 16V .01uF Y5V 0402 .01pF Tol
+F http://www.mouser.com/catalog/supplier/library/pdf/AVXSurfaceMountCeramic.pdf
+$ENDCMP
+#
+$CMP 0603N100F101CT
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 MLCC NPO 10 pF +/- 1% 100 V T&R MH
+F https://ms.componentsearchengine.com/Datasheets/1/0603N100F101CT.pdf
+$ENDCMP
+#
+$CMP 2N7002NXAKR
+D NEXPERIA - 2N7002NXAKR - MOSFET Transistor, Trench, N Channel, 190 mA, 60 V, 3 ohm, 10 V, 1.6 V
+F https://mouser.componentsearchengine.com/Datasheets/2/2N7002NXAKR.pdf
+$ENDCMP
+#
+$CMP 5015714007
+D 1.00mm Pitch, Pico-Clasp PCB Header, Dual Row, Right-Angle, Surface Mount, 0.10&micro;m Gold Plated, with Inner Positive Lock, 40 Circuits, Natural
+F https://www.molex.com/pdm_docs/sd/5015712007_sd.pdf
+$ENDCMP
+#
+$CMP 52746-1471
+D Easy-On FFC/FPC Connector, 0.50mm Pitch, Slider Series, Right-Angle, Bottom Contact, 2.00mm Height,  Circuits, Gold Plating
+F https://www.molex.com/pdm_docs/sd/527461471_sd.pdf
+$ENDCMP
+#
+$CMP 68000-215HLF
+D BergStik, Board to Board connector, Unshrouded Header, Through Hole, Single Row, 15 Positions, 2.54 mm Pitch, Vertical, 5.84 mm (0.23 in.) Mating, 2.41 mm (0.095 in.) Tail
+F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/68000.pdf
+$ENDCMP
+#
+$CMP 742792092
+D SMD EMI Suppression Ferrite Beads WE-CBF
+$ENDCMP
+#
+$CMP 826648-3
+D 3P AMPMODU II STIFT LEI
+F https://componentsearchengine.com//826648-3.pdf
+$ENDCMP
+#
+$CMP 885012208010
+D Multilayer Ceramic Chip Capacitor WCAP-CSGP Series 1206 330000pF X7R1206334K010DFCT10000
+F https://katalog.we-online.com/pbs/datasheet/885012208010.pdf
+$ENDCMP
+#
+$CMP ADM2587EBRWZ
+D ADM2587EBRWZ, Line Transceiver Differential, 3.3 V, 5 V, 20-Pin SOIC W
+F http://www.analog.com/static/imported-files/data_sheets/ADM2582E_2587E.pdf
+$ENDCMP
+#
+$CMP ADUM5241ARZ
+D Digital Isolators Dual-CH w/ Intg DC/DC Converter
+F https://componentsearchengine.com/Datasheets/1/ADUM5241ARZ.pdf
+$ENDCMP
+#
+$CMP AP3441SHE-7B
+D Switching Voltage Regulators DCDC Conv LV Buck
+F https://www.diodes.com/assets/Datasheets/AP3441-L.pdf
+$ENDCMP
+#
+$CMP BAS3010S02LRHE6327XTSA1
+D Schottky Diodes & Rectifiers Lw VF Schottky Diode
+F https://componentsearchengine.com/Datasheets/2/BAS3010S02LRHE6327XTSA1.pdf
+$ENDCMP
+#
+$CMP BG301-03-A-0540-L-B
+D HEADER, 2.54MM, SMT, R/A, 3WAY; Pitch Spacing:2.54mm; No. of Contacts:3Contacts; Gender:Header; Product Range:White Lite BG301 Series; Contact Termination Type:Surface Mount; No. of Rows:1Rows; Contact Plating:Gold Plated Contacts; RoHS Compliant: Yes
+$ENDCMP
+#
+$CMP BLM15PE300SH1D
+D Ferrite Beads 0402in 30ohm 1400mA AEC-Q200 125degC
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
+$ENDCMP
+#
+$CMP C2012X8L1A106K125AC
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 10VDC 10uF 10% X8L
+F https://componentsearchengine.com//C2012X8L1A106K125AC.pdf
+$ENDCMP
+#
+$CMP CL10C100CB8NNNC
+D Samsung Electro-Mechanics 0603 CL 10pF Ceramic Multilayer Capacitor, 50 V, +125C, C0G Dielectric, +/-0.25pF SMD
+F https://eagle.componentsearchengine.com/Datasheets/2/CL10C100CB8NNNC.pdf
+$ENDCMP
+#
+$CMP CRCW080520R0FKTA
+D Thick Film Resistors - SMD 1/8watt 20ohms 1%
+F http://www.vishay.com/docs/20035/dcrcwe3.pdf
+$ENDCMP
+#
+$CMP DCJ250-10-A-K1-K
+D GCT (GLOBAL CONNECTOR TECHNOLOGY) - DCJ250-10-A-K1-K - DC POWER JACK, 5A, 20VDC, BLACK
+F https://gct.co/files/drawings/dcj250-10.pdf
+$ENDCMP
+#
+$CMP ECA-1AM471B
+D Panasonic 470uF 10 V Aluminium Electrolytic Capacitor, M Series 8 x 11.5mm
+F http://uk.rs-online.com/web/p/products/8073258
+$ENDCMP
+#
+$CMP EEU-HD1A222
+D Aluminium Electrolytic Capacitor, Radial Lead 10V AND 2200UF
+F http://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1035.pdf
+$ENDCMP
+#
+$CMP ERA-6AEB2612V
+D Thin Film Resistors - SMD 0805 26.1Kohm 0.1% 25ppm
+F https://componentsearchengine.com//ERA-6AEB2612V.pdf
+$ENDCMP
+#
+$CMP ESD8006MUTAG
+D ON Semiconductor ESD8006MUTAG, Hex Uni-Directional ESD Protection Diode, 10-Pin U-DFN5515
+F https://www.onsemi.com/pdf/datasheet/esd8006-d.pdf
+$ENDCMP
+#
+$CMP F981C475MMAAJ6
+D Tantalum Capacitors - Solid SMD 16V 4.7uF 0603 20% ESR=12Ohms AEC-Q200
+F https://gr.mouser.com/datasheet/2/40/F98_AJ6-1853402.pdf
+$ENDCMP
+#
+$CMP FTSH-105-01-F-DV-K-A-TR
+D 10 position, High Reliability Header Strips, 0.050&quot; pitch, Dual-Row Vertical
+F http://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-xxx-mkt.pdf
+$ENDCMP
+#
+$CMP FUSB340TMX
+D FUSB340TMX ON Semiconductor, USB Switch IC Single 2:1 10Gbit/s, 1.5  5 V, 18-Pin TMLP, X2QFN
+F https://www.onsemi.com/pub/Collateral/FUSB340-D.PDF
+$ENDCMP
+#
+$CMP GCQ1555C1H100FB01D
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 50VDC 10pF 1% AEC-Q200
+$ENDCMP
+#
+$CMP GJM1555C1H100GB01D
+D Capacitor GJM15_0.10 L=1.0mm W=0.5mm T=0.5mm
+F https://psearch.en.murata.com/capacitor/product/GJM1555C1H100GB01%23.html
+$ENDCMP
+#
+$CMP IN-S42ATG
+D LED Uni-Color Green 523nm 2-Pin Chip 0402(1006Metric) T/R
+F http://www.inolux-corp.com/datasheet/SMDLED/Mono%20Color%20Top%20View/IN-S42AT%20Series_V1.1.pdf
+$ENDCMP
+#
+$CMP IN-S42ATR
+D LED Uni-Color Red 645nm 2-Pin Chip 0402(1006Metric) T/R
+F http://www.inolux-corp.com/datasheet/SMDLED/Mono%20Color%20Top%20View/IN-S42AT%20Series_V1.1.pdf
+$ENDCMP
+#
+$CMP IP4234CZ6,125
+D IP4234CZ6 - Single USB 2.0 ESD protection to IEC 61000-4-2 level 4
+F https://assets.nexperia.com/documents/data-sheet/IP4234CZ6.pdf
+$ENDCMP
+#
+$CMP LM1086IS-3.3_NOPB
+D 1.5-A fixed- and adjustable-output linear regulator
+F http://www.ti.com/lit/ds/symlink/lm1086.pdf
+$ENDCMP
+#
+$CMP LM1086IS-5.0_NOPB
+D 1.5-A fixed- and adjustable-output linear regulator
+F http://www.ti.com/lit/ds/symlink/lm1086.pdf
+$ENDCMP
+#
+$CMP LM358LVIPWR
+D 2-Channel Industry-Standard Low-Voltage Operational Amplifier
+F http://www.ti.com/lit/gpn/lm358lv
+$ENDCMP
+#
+$CMP MCP2221A-I_ML
+D Microchip Technology MCP2221A-I/ML, USB Controller, 12Mbit/s, 16-Pin QFN
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en586514
+$ENDCMP
+#
+$CMP MMZ2012Y202BTD25
+D TDK - MMZ2012Y202BTD25 - Ferrite Bead, 0805 [2012 Metric], 2 kohm, 400 mA, MMZ Series, 0.5 ohm, +/- 25%
+F https://product.tdk.com/system/files/dam/doc/product/emc/emc/beads/catalog/beads_automotive_signal_mmz2012_en.pdf
+$ENDCMP
+#
+$CMP NFZ15SF102SZ10D
+D Ferrite Bead, 0402 [1005 Metric], 1 kohm, 230 mA, NFZ15SF Series, 1.4 ohm, +/- 25%
+F https://www.murata.com/en-eu/products/productdetail?partno=NFZ15SF102SZ10%23
+$ENDCMP
+#
+$CMP PI3USB4000DQ1ZUAEX
+D USB Switch ICs USB2 Switch U-QFN1520-10 T&R 3K
+F https://www.diodes.com/assets/Datasheets/PI3USB4000DQ.pdf
+$ENDCMP
+#
+$CMP RC0805JR-0710KL
+D YAGEO - RC0805JR-0710KL - SMD Chip Resistor, 0805 [2012 Metric], 10 kohm, RC Series, 150 V, Thick Film, 125 mW
+F http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP STM32G491RET6
+D MCU 32-bit ARM Cortex M4 RISC 512KB Flash 1.8V/2.5V/3.3V 64-Pin LQFP Tray
+F https://www.st.com/resource/en/datasheet/stm32g491cc.pdf
+$ENDCMP
+#
+$CMP T494D106K035AS
+D Tantalum Capacitors - Solid SMD 35volts 10uF 10%
+$ENDCMP
+#
+$CMP TCR15AG12,LF
+D LDO Voltage Regulators
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=59680&prodName=TCR15AG12
+$ENDCMP
+#
+$CMP TS3USB30ERSWR
+D Texas Instruments TS3USB30ERSWR, Multiplexer Switch IC Dual 1:2 demultiplexer, multiplexer 480Mbit/s, 3  4.3 V
+F http://www.ti.com/lit/gpn/ts3usb30e
+$ENDCMP
+#
+$CMP UJ2-MIBH-G-SMT-TR
+D USB Connectors
+F https://www.mouser.com/datasheet/2/670/uj2_mibh_g_smt_tr-1953516.pdf
+$ENDCMP
+#
+$CMP USB7206C-I_KDX
+D USB Interface IC USB3.1 Gen2 HUB_No PD_No Type C
+F https://www.microchip.com/content/dam/mchp/documents/UNG/ProductDocuments/DataSheets/00003850A.pdf
+$ENDCMP
+#
+$CMP USB7216CT-I_KDX
+D USB Interface IC USB3.1 GEN2 HUB NO PD, 1 CC, 6-PORT SS/HS (industrial temp)
+F https://ww1.microchip.com/downloads/en/DeviceDoc/00003851A.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADM2587EBRWZ
+D ADM2587EBRWZ, Line Transceiver Differential, 3.3 V, 5 V, 20-Pin SOIC W
+K
+F http://www.analog.com/static/imported-files/data_sheets/ADM2582E_2587E.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,13 @@
+(footprint "0.5mm-NPTH-Drill" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 1) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 236be59b-1623-446b-97f9-34a99209e9fa)
+  )
+  (fp_text value "0.5mm-NPTH-Drill" (at 0 -1) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 34690795-b8bc-40b8-b364-6557728ce9ff)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers "*.Cu" "*.Mask") (tstamp 2064f87f-a839-4afa-a0de-1f653263fe85))
+)

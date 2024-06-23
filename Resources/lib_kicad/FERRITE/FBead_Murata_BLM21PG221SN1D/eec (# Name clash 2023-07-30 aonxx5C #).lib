@@ -1,0 +1,48 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Murata BLM21PG221SN1D
+#
+DEF BLM21PG221SN1D FB 0 40 Y Y 1 L N
+F0 "FB" 0 200 50 H V L CNN 
+F1 "BLM21PG221SN1D" 0 300 50 H V L CNN 
+F2 "Murata-BLM21-0.2-t0.85-e0.5-0-0-*" 0 400 50 H I L CNN 
+F3 "https://www.murata.com/en-us/products/productdetail?partno=BLM21PG221SN1%23" 0 500 50 H I L CNN 
+F4 "2A" 0 600 50 H I L CNN "RMS current"
+F5 "No" 0 700 50 H I L CNN "automotive"
+F6 "" 0 800 50 H I L CNN "automotive grade"
+F7 "FBead" 0 900 50 H I L CNN "category"
+F8 "886678" 0 1000 50 H I L CNN "ciiva ids"
+F9 "Ferrite" 0 1100 50 H I L CNN "core material"
+F10 "Passive Components" 0 1200 50 H I L CNN "device class L1"
+F11 "EMI / RFI Components" 0 1300 50 H I L CNN "device class L2"
+F12 "Ferrite Beads and Chips" 0 1400 50 H I L CNN "device class L3"
+F13 "" 0 1500 50 H I L CNN "digikey description"
+F14 "" 0 1600 50 H I L CNN "digikey part number"
+F15 "1.05mm" 0 1700 50 H I L CNN "height"
+F16 "220Ω @ 100MHz" 0 1800 50 H I L CNN "impedance at frequency"
+F17 "CAPC200125X85" 0 1900 50 H I L CNN "ipc land pattern name"
+F18 "Yes" 0 2000 50 H I L CNN "lead free"
+F19 "39d19d3d407807af" 0 2100 50 H I L CNN "library id"
+F20 "Murata" 0 2200 50 H I L CNN "manufacturer"
+F21 "" 0 2300 50 H I L CNN "mouser description"
+F22 "" 0 2400 50 H I L CNN "mouser part number"
+F23 "0805" 0 2500 50 H I L CNN "package"
+F24 "1390553380" 0 2600 50 H I L CNN "release date"
+F25 "Yes" 0 2700 50 H I L CNN "rohs"
+F26 "0.045Ω" 0 2800 50 H I L CNN "series resistance"
+F27 "+125℃" 0 2900 50 H I L CNN "temperature range high"
+F28 "-55°C" 0 3000 50 H I L CNN "temperature range low"
+F29 "100MHz" 0 3100 50 H I L CNN "test frequency"
+F30 "25%" 0 3200 50 H I L CNN "tolerance"
+DRAW
+X 1 1 100 0 100 R 40 0 1 1 P 
+X 2 2 400 0 100 L 40 0 1 1 P 
+P 2 1 1 0 170 -30 280 80 N
+P 2 1 1 0 220 -80 330 30 N
+P 2 1 1 0 280 80 330 30 N
+P 2 1 1 0 220 -80 170 -30 N
+ENDDRAW
+ENDDEF
+#
+# End Library
