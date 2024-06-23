@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name esp32_moisture)(type KiCad)(uri "$(KIPRJMOD)/esp32_moisture.pretty")(options "")(descr ""))
+)

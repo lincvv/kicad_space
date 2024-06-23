@@ -1,0 +1,421 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 4
+Title "POWER"
+Date "2021-11-15"
+Rev "v2.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2500 9900 2700 9900
+Wire Wire Line
+	2700 9900 2700 10100
+Wire Wire Line
+	2700 10100 1600 10100
+Wire Wire Line
+	1600 10100 1600 9800
+Wire Wire Line
+	1600 9800 1600 9700
+Wire Wire Line
+	1600 9700 1600 9600
+Wire Wire Line
+	1600 9600 1600 9500
+Wire Wire Line
+	2700 10100 2700 10300
+Connection ~ 1600 9600
+Connection ~ 1600 9700
+Connection ~ 1600 9800
+Connection ~ 2700 10100
+Text GLabel 2500 9900 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	3400 10600 3400 10500
+Text GLabel 3400 10600 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	4750 10200 4650 10200
+Wire Wire Line
+	4650 10200 4650 10300
+Text GLabel 4750 10200 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	8601 9803 8600 9803
+Wire Wire Line
+	8600 9803 8600 9700
+Wire Wire Line
+	8600 9700 8800 9700
+Wire Wire Line
+	8800 9700 8800 9600
+Wire Wire Line
+	8400 9600 8400 9700
+Wire Wire Line
+	8400 9700 8600 9700
+Connection ~ 8600 9700
+Text GLabel 8601 9803 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	1350 1800 1350 1900
+Wire Wire Line
+	1450 1800 1350 1800
+Text GLabel 1350 1800 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	8800 9000 8600 9000
+Wire Wire Line
+	8600 9000 8400 9000
+Wire Wire Line
+	8400 9000 8400 9100
+Wire Wire Line
+	8800 9100 8800 9000
+Wire Wire Line
+	8600 8900 8600 9000
+Connection ~ 8600 9000
+Wire Wire Line
+	5750 10200 6150 10200
+Text Label 5750 10200 0    70   ~ 0
+USB_DN
+Wire Wire Line
+	2500 9600 2900 9600
+Text Label 2500 9600 0    56   ~ 0
+USB_DN
+Wire Wire Line
+	4850 9500 4550 9500
+Text Label 4550 9500 0    56   ~ 0
+USB_DN
+Wire Wire Line
+	5750 10300 6150 10300
+Text Label 5750 10300 0    70   ~ 0
+USB_DP
+Wire Wire Line
+	2500 9700 2900 9700
+Text Label 2500 9700 0    56   ~ 0
+USB_DP
+Wire Wire Line
+	4850 9600 4550 9600
+Text Label 4550 9600 0    56   ~ 0
+USB_DP
+Wire Wire Line
+	2250 1000 2350 1000
+Wire Wire Line
+	2250 1800 2350 1800
+Wire Wire Line
+	2350 1800 2350 1000
+Text Label 2350 1500 1    56   ~ 0
+BAT+
+Wire Wire Line
+	5650 9500 5950 9500
+Text Label 5650 9500 0    56   ~ 0
+USB_D-
+Wire Wire Line
+	5650 9600 5950 9600
+Text Label 5650 9600 0    56   ~ 0
+USB_D+
+Wire Wire Line
+	2250 900  2450 900 
+Wire Wire Line
+	2450 900  2450 800 
+Wire Wire Line
+	3900 9200 3900 9500
+Wire Wire Line
+	2500 9500 3400 9500
+Wire Wire Line
+	3400 9500 3400 9700
+Wire Wire Line
+	3400 9500 3900 9500
+Text GLabel 2500 9500 2    56   BiDi ~ 0
++5V
+Connection ~ 3400 9500
+$Comp
+L esp32_moisture-eagle-import:CNA5L1X7R1C106K160AE C8
+U 1 1 2F4B506D
+P 8400 9600
+AR Path="/2F4B506D" Ref="C8"  Part="1" 
+AR Path="/6193971D/2F4B506D" Ref="C8"  Part="1" 
+F 0 "C8" V 8731 9501 59  0000 L CNN
+F 1 "CNA5L1X7R1C106K160AE" H 8253 9747 59  0000 L CNN
+F 2 "esp32_moisture:CAPC3216X180N" H 8400 9600 31  0001 C CNN
+F 3 "" H 8400 9600 31  0001 C CNN
+	1    8400 9600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L esp32_moisture-eagle-import:CNA5L1X7R1C106K160AE C9
+U 1 1 7D4536D2
+P 8800 9600
+AR Path="/7D4536D2" Ref="C9"  Part="1" 
+AR Path="/6193971D/7D4536D2" Ref="C9"  Part="1" 
+F 0 "C9" V 9135 9562 59  0000 R CNN
+F 1 "CNA5L1X7R1C106K160AE" H 8666 9445 59  0000 L CNN
+F 2 "esp32_moisture:CAPC3216X180N" H 8800 9600 31  0001 C CNN
+F 3 "" H 8800 9600 31  0001 C CNN
+	1    8800 9600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L esp32_moisture-eagle-import:V+ #P+3
+U 1 1 48C2C5DB
+P 8600 8800
+AR Path="/48C2C5DB" Ref="#P+3"  Part="1" 
+AR Path="/6193971D/48C2C5DB" Ref="#P+03"  Part="1" 
+F 0 "#P+03" H 8600 8800 31  0001 C CNN
+F 1 "V+" V 8752 8808 59  0000 R TNN
+F 2 "" H 8600 8800 31  0001 C CNN
+F 3 "" H 8600 8800 31  0001 C CNN
+	1    8600 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L esp32_moisture-eagle-import:GND #GND5
+U 1 1 5B6A58CA
+P 8601 9903
+AR Path="/5B6A58CA" Ref="#GND5"  Part="1" 
+AR Path="/6193971D/5B6A58CA" Ref="#GND05"  Part="1" 
+F 0 "#GND05" H 8601 9903 31  0001 C CNN
+F 1 "GND" H 8541 9813 59  0000 L BNN
+F 2 "" H 8601 9903 31  0001 C CNN
+F 3 "" H 8601 9903 31  0001 C CNN
+	1    8601 9903
+	1    0    0    -1  
+$EndComp
+$Comp
+L esp32_moisture-eagle-import:UJ2-MIBH2-4-SMT-TR J3
+U 1 1 B665FDA9
+P 2500 9500
+AR Path="/B665FDA9" Ref="J3"  Part="1" 
+AR Path="/6193971D/B665FDA9" Ref="J3"  Part="1" 
+F 0 "J3" H 2950 9786 59  0000 C CNN
+F 1 "UJ2-MIBH2-4-SMT-TR" H 2950 9681 59  0000 C CNN
+F 2 "esp32_moisture:UJ2MIBH24SMTTR" H 2500 9500 31  0001 C CNN
+F 3 "" H 2500 9500 31  0001 C CNN
+	1    2500 9500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L esp32_moisture-eagle-import:GND #GND7
+U 1 1 C2693486
+P 2700 10400
+AR Path="/C2693486" Ref="#GND7"  Part="1" 
+AR Path="/6193971D/C2693486" Ref="#GND07"  Part="1" 
+F 0 "#GND07" H 2700 10400 31  0001 C CNN
+F 1 "GND" H 2631 10313 59  0000 L BNN
+F 2 "" H 2700 10400 31  0001 C CNN
+F 3 "" H 2700 10400 31  0001 C CNN
+	1    2700 10400
+	1    0    0    -1  
+$EndComp
+$Comp
+L esp32_moisture-eagle-import:PESD5V0C1BSFYL D2
+U 1 1 0CADE672
+P 3400 9700
+AR Path="/0CADE672" Ref="D2"  Part="1" 
+AR Path="/6193971D/0CADE672" Ref="D2"  Part="1" 
+F 0 "D2" V 3747 9828 59  0000 L CNN
+F 1 "PESD5V0C1BSFYL" V 3852 9828 59  0000 L CNN
+F 2 "esp32_moisture:PESD5V0S1USF315" H 3400 9700 31  0001 C CNN
+F 3 "" H 3400 9700 31  0001 C CNN
+	1    3400 9700
+	0    1    1    0   
+$EndComp
+$Comp
+L esp32_moisture-eagle-import:ESD122DMXR D1
+U 1 1 C78C3FBD
+P 4750 10200
+AR Path="/C78C3FBD" Ref="D1"  Part="1" 
+AR Path="/6193971D/C78C3FBD" Ref="D1"  Part="1" 
+F 0 "D1" H 5207 10340 59  0000 L CNN
+F 1 "ESD122DMXR" H 5010 9950 59  0000 L CNN
+F 2 "esp32_moisture:DMX0003A" H 4750 10200 31  0001 C CNN
+F 3 "" H 4750 10200 31  0001 C CNN
+	1    4750 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L esp32_moisture-eagle-import:GND #GND9
+U 1 1 FD0A31A1
+P 3400 10700
+AR Path="/FD0A31A1" Ref="#GND9"  Part="1" 
+AR Path="/6193971D/FD0A31A1" Ref="#GND09"  Part="1" 
+F 0 "#GND09" H 3400 10700 31  0001 C CNN
+F 1 "GND" H 3300 10600 59  0000 L BNN
+F 2 "" H 3400 10700 31  0001 C CNN
+F 3 "" H 3400 10700 31  0001 C CNN
+	1    3400 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L esp32_moisture-eagle-import:GND #GND10
+U 1 1 0087CD10
+P 4650 10400
+AR Path="/0087CD10" Ref="#GND10"  Part="1" 
+AR Path="/6193971D/0087CD10" Ref="#GND010"  Part="1" 
+F 0 "#GND010" H 4650 10400 31  0001 C CNN
+F 1 "GND" H 4550 10300 59  0000 L BNN
+F 2 "" H 4650 10400 31  0001 C CNN
+F 3 "" H 4650 10400 31  0001 C CNN
+	1    4650 10400
+	1    0    0    -1  
+$EndComp
+$Comp
+L esp32_moisture-eagle-import:RB060MM-30TFTR D4
+U 1 1 04403A79
+P 13350 5950
+AR Path="/04403A79" Ref="D4"  Part="1" 
+AR Path="/6193971D/04403A79" Ref="D4"  Part="1" 
+F 0 "D4" H 13750 6200 59  0000 L CNN
+F 1 "RB060MM-30TFTR" H 13450 6100 59  0000 L CNN
+F 2 "esp32_moisture:SODFL3516X90N" H 13350 5950 31  0001 C CNN
+F 3 "" H 13350 5950 31  0001 C CNN
+	1    13350 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L esp32_moisture-eagle-import:RB060MM-30TFTR D3
+U 1 1 93886C31
+P 4650 6100
+AR Path="/93886C31" Ref="D3"  Part="1" 
+AR Path="/6193971D/93886C31" Ref="D3"  Part="1" 
+F 0 "D3" H 5050 6350 59  0000 L CNN
+F 1 "RB060MM-30TFTR" H 4750 6250 59  0000 L CNN
+F 2 "esp32_moisture:SODFL3516X90N" H 4650 6100 31  0001 C CNN
+F 3 "" H 4650 6100 31  0001 C CNN
+	1    4650 6100
+	-1   0    0    1   
+$EndComp
+$Comp
+L esp32_moisture-eagle-import:LSSM12-P-V-T_R S5
+U 1 1 0AA9017A
+P 2250 1100
+AR Path="/0AA9017A" Ref="S5"  Part="1" 
+AR Path="/6193971D/0AA9017A" Ref="S5"  Part="1" 
+F 0 "S5" H 3060 1040 59  0000 R CNN
+F 1 "LSSM12-P-V-T_R" H 3200 750 59  0000 R CNN
+F 2 "esp32_moisture:LSSM12PVTR" H 2250 1100 31  0001 C CNN
+F 3 "" H 2250 1100 31  0001 C CNN
+	1    2250 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L esp32_moisture-eagle-import:MCF08062G900-T FL1
+U 1 1 A7F840A3
+P 4850 9500
+AR Path="/A7F840A3" Ref="FL1"  Part="1" 
+AR Path="/6193971D/A7F840A3" Ref="FL1"  Part="1" 
+F 0 "FL1" H 5190 9650 59  0000 L CNN
+F 1 "MCF08062G900-T" H 4910 9230 59  0000 L CNN
+F 2 "esp32_moisture:MCF08062G900T" H 4850 9500 31  0001 C CNN
+F 3 "" H 4850 9500 31  0001 C CNN
+	1    4850 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L esp32_moisture-eagle-import:GND #GND2
+U 1 1 4877C9E2
+P 1350 2000
+AR Path="/4877C9E2" Ref="#GND2"  Part="1" 
+AR Path="/6193971D/4877C9E2" Ref="#GND02"  Part="1" 
+F 0 "#GND02" H 1350 2000 31  0001 C CNN
+F 1 "GND" H 1281 1913 59  0000 L BNN
+F 2 "" H 1350 2000 31  0001 C CNN
+F 3 "" H 1350 2000 31  0001 C CNN
+	1    1350 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L esp32_moisture-eagle-import:FRAME_B_L #FRAME2
+U 1 1 B9163575
+P 1500 10850
+AR Path="/B9163575" Ref="#FRAME2"  Part="1" 
+AR Path="/6193971D/B9163575" Ref="#FRAME2"  Part="1" 
+F 0 "#FRAME2" H 1500 10850 31  0001 C CNN
+F 1 "FRAME_B_L" H 1500 10850 31  0001 C CNN
+F 2 "" H 1500 10850 31  0001 C CNN
+F 3 "" H 1500 10850 31  0001 C CNN
+	1    1500 10850
+	1    0    0    -1  
+$EndComp
+$Comp
+L esp32_moisture-eagle-import:VCC #P+5
+U 1 1 242A71CD
+P 2450 700
+AR Path="/242A71CD" Ref="#P+5"  Part="1" 
+AR Path="/6193971D/242A71CD" Ref="#P+05"  Part="1" 
+F 0 "#P+05" H 2450 700 31  0001 C CNN
+F 1 "B3V" V 2350 600 59  0000 L BNN
+F 2 "" H 2450 700 31  0001 C CNN
+F 3 "" H 2450 700 31  0001 C CNN
+	1    2450 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L esp32_moisture-eagle-import:+5V #P+7
+U 1 1 FAFE20BD
+P 3900 9100
+AR Path="/FAFE20BD" Ref="#P+7"  Part="1" 
+AR Path="/6193971D/FAFE20BD" Ref="#P+07"  Part="1" 
+F 0 "#P+07" H 3900 9100 31  0001 C CNN
+F 1 "+5V" V 3800 8900 59  0000 L BNN
+F 2 "" H 3900 9100 31  0001 C CNN
+F 3 "" H 3900 9100 31  0001 C CNN
+	1    3900 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L esp32_moisture-eagle-import:MCP1259T-E_UN IC6
+U 1 1 0EE5647E
+P 7050 2800
+AR Path="/0EE5647E" Ref="IC6"  Part="1" 
+AR Path="/6193971D/0EE5647E" Ref="IC6"  Part="1" 
+F 0 "IC6" H 8200 3100 59  0000 L CNN
+F 1 "MCP1259T-E_UN" H 8200 3000 59  0000 L CNN
+F 2 "esp32_moisture:SOP50P490X110-10N" H 7050 2800 31  0001 C CNN
+F 3 "" H 7050 2800 31  0001 C CNN
+	1    7050 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L esp32_moisture-eagle-import:ISL9120IRTNZ IC3
+U 1 1 B686635D
+P 2050 6400
+AR Path="/B686635D" Ref="IC3"  Part="1" 
+AR Path="/6193971D/B686635D" Ref="IC3"  Part="1" 
+F 0 "IC3" H 3100 7100 59  0000 L CNN
+F 1 "ISL9120IRTNZ" H 3100 7000 59  0000 L CNN
+F 2 "esp32_moisture:QFN50P300X300X75-13N" H 2050 6400 31  0001 C CNN
+F 3 "" H 2050 6400 31  0001 C CNN
+	1    2050 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L esp32_moisture-eagle-import:1050 J4
+U 1 1 FA7CA15B
+P 2250 1800
+AR Path="/FA7CA15B" Ref="J4"  Part="1" 
+AR Path="/6193971D/FA7CA15B" Ref="J4"  Part="1" 
+F 0 "J4" H 2600 2000 59  0000 L CNN
+F 1 "1050" H 2600 1600 59  0000 L CNN
+F 2 "esp32_moisture:1050" H 2250 1800 31  0001 C CNN
+F 3 "" H 2250 1800 31  0001 C CNN
+	1    2250 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L esp32_moisture-eagle-import:MCP1725T-3302E_SN IC5
+U 1 1 ECA671C6
+P 9850 6000
+AR Path="/ECA671C6" Ref="IC5"  Part="1" 
+AR Path="/6193971D/ECA671C6" Ref="IC5"  Part="1" 
+F 0 "IC5" H 11000 6300 59  0000 L CNN
+F 1 "MCP1725T-3302E_SN" H 11000 6200 59  0000 L CNN
+F 2 "esp32_moisture:SOIC127P600X175-8N" H 9850 6000 31  0001 C CNN
+F 3 "" H 9850 6000 31  0001 C CNN
+	1    9850 6000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

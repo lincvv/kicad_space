@@ -1,0 +1,165 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 4 5
+Title "POWER"
+Date "2021-11-15"
+Rev "v2.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	12851 9603 12850 9603
+Wire Wire Line
+	12850 9603 12850 9500
+Wire Wire Line
+	12850 9500 13050 9500
+Wire Wire Line
+	13050 9500 13050 9400
+Wire Wire Line
+	12650 9400 12650 9500
+Wire Wire Line
+	12650 9500 12850 9500
+Connection ~ 12850 9500
+Text GLabel 12851 9603 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	13050 8800 12850 8800
+Wire Wire Line
+	12850 8800 12650 8800
+Wire Wire Line
+	12650 8800 12650 8900
+Wire Wire Line
+	13050 8900 13050 8800
+Wire Wire Line
+	12850 8700 12850 8800
+Connection ~ 12850 8800
+$Comp
+L esp32_moisture-eagle-import:CNA5L1X7R1C106K160AE C?
+U 1 1 2F4B506D
+P 12650 9400
+AR Path="/2F4B506D" Ref="C?"  Part="1" 
+AR Path="/6193971D/2F4B506D" Ref="C7"  Part="1" 
+F 0 "C7" V 12981 9301 59  0000 L CNN
+F 1 "CNA5L1X7R1C106K160AE" H 12503 9547 59  0000 L CNN
+F 2 "esp32_moisture:CAPC3216X180N" H 12650 9400 31  0001 C CNN
+F 3 "" H 12650 9400 31  0001 C CNN
+	1    12650 9400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L esp32_moisture-eagle-import:CNA5L1X7R1C106K160AE C?
+U 1 1 7D4536D2
+P 13050 9400
+AR Path="/7D4536D2" Ref="C?"  Part="1" 
+AR Path="/6193971D/7D4536D2" Ref="C8"  Part="1" 
+F 0 "C8" V 13385 9362 59  0000 R CNN
+F 1 "CNA5L1X7R1C106K160AE" H 12916 9245 59  0000 L CNN
+F 2 "esp32_moisture:CAPC3216X180N" H 13050 9400 31  0001 C CNN
+F 3 "" H 13050 9400 31  0001 C CNN
+	1    13050 9400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L esp32_moisture-eagle-import:V+ #P+?
+U 1 1 48C2C5DB
+P 12850 8600
+AR Path="/48C2C5DB" Ref="#P+?"  Part="1" 
+AR Path="/6193971D/48C2C5DB" Ref="#P+06"  Part="1" 
+F 0 "#P+06" H 12850 8600 31  0001 C CNN
+F 1 "V+" V 13002 8608 59  0000 R TNN
+F 2 "" H 12850 8600 31  0001 C CNN
+F 3 "" H 12850 8600 31  0001 C CNN
+	1    12850 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L esp32_moisture-eagle-import:GND #GND?
+U 1 1 5B6A58CA
+P 12851 9703
+AR Path="/5B6A58CA" Ref="#GND?"  Part="1" 
+AR Path="/6193971D/5B6A58CA" Ref="#GND020"  Part="1" 
+F 0 "#GND020" H 12851 9703 31  0001 C CNN
+F 1 "GND" H 12791 9613 59  0000 L BNN
+F 2 "" H 12851 9703 31  0001 C CNN
+F 3 "" H 12851 9703 31  0001 C CNN
+	1    12851 9703
+	1    0    0    -1  
+$EndComp
+$Comp
+L esp32_moisture-eagle-import:RB060MM-30TFTR D?
+U 1 1 04403A79
+P 5800 8300
+AR Path="/04403A79" Ref="D?"  Part="1" 
+AR Path="/6193971D/04403A79" Ref="D3"  Part="1" 
+F 0 "D3" H 6200 8550 59  0000 L CNN
+F 1 "RB060MM-30TFTR" H 5900 8450 59  0000 L CNN
+F 2 "esp32_moisture:SODFL3516X90N" H 5800 8300 31  0001 C CNN
+F 3 "" H 5800 8300 31  0001 C CNN
+	1    5800 8300
+	-1   0    0    1   
+$EndComp
+$Comp
+L esp32_moisture-eagle-import:RB060MM-30TFTR D?
+U 1 1 93886C31
+P 6900 2850
+AR Path="/93886C31" Ref="D?"  Part="1" 
+AR Path="/6193971D/93886C31" Ref="D4"  Part="1" 
+F 0 "D4" H 7300 3100 59  0000 L CNN
+F 1 "RB060MM-30TFTR" H 7000 3000 59  0000 L CNN
+F 2 "esp32_moisture:SODFL3516X90N" H 6900 2850 31  0001 C CNN
+F 3 "" H 6900 2850 31  0001 C CNN
+	1    6900 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L esp32_moisture-eagle-import:MCP1259T-E_UN IC?
+U 1 1 0EE5647E
+P 8400 5350
+AR Path="/0EE5647E" Ref="IC?"  Part="1" 
+AR Path="/6193971D/0EE5647E" Ref="IC6"  Part="1" 
+F 0 "IC6" H 9550 5650 59  0000 L CNN
+F 1 "MCP1259T-E_UN" H 9550 5550 59  0000 L CNN
+F 2 "esp32_moisture:SOP50P490X110-10N" H 8400 5350 31  0001 C CNN
+F 3 "" H 8400 5350 31  0001 C CNN
+	1    8400 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L esp32_moisture-eagle-import:MCP1725T-3302E_SN IC?
+U 1 1 ECA671C6
+P 2300 8350
+AR Path="/ECA671C6" Ref="IC?"  Part="1" 
+AR Path="/6193971D/ECA671C6" Ref="IC4"  Part="1" 
+F 0 "IC4" H 3450 8650 59  0000 L CNN
+F 1 "MCP1725T-3302E_SN" H 3450 8550 59  0000 L CNN
+F 2 "esp32_moisture:SOIC127P600X175-8N" H 2300 8350 31  0001 C CNN
+F 3 "" H 2300 8350 31  0001 C CNN
+	1    2300 8350
+	1    0    0    -1  
+$EndComp
+Text HLabel 2500 2600 0    47   Input ~ 9
+B3V
+Text HLabel 2500 2800 0    47   Input ~ 9
++5V
+$Comp
+L esp32_moisture-eagle-import:ISL9120IRTNZ IC?
+U 1 1 B686635D
+P 3150 2600
+AR Path="/B686635D" Ref="IC?"  Part="1" 
+AR Path="/6193971D/B686635D" Ref="IC5"  Part="1" 
+F 0 "IC5" H 4200 3300 59  0000 L CNN
+F 1 "ISL9120IRTNZ" H 4200 3200 59  0000 L CNN
+F 2 "esp32_moisture:QFN50P300X300X75-13N" H 3150 2600 31  0001 C CNN
+F 3 "" H 3150 2600 31  0001 C CNN
+	1    3150 2600
+	1    0    0    -1  
+$EndComp
+Text HLabel 6900 1750 2    47   Output ~ 9
++3V3
+$EndSCHEMATC
